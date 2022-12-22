@@ -11,7 +11,7 @@ fetch(
     /*
     const jSonData = data;
 
-    
+
 
     const {
       timings: { Sunset, Sunrise },
