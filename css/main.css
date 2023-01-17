@@ -58,7 +58,7 @@ body {
 .card--bg-purple {
   background: #006241; /*hsl(263, 55%, 52%);*/
   color: #fff;
-  background-image: url("./images/bg-pattern-quotation.svg");
+  /* background-image: url("https://img.icons8.com/ios-filled/100/000000/quote-right.png");*/
   background-repeat: no-repeat;
   background-position: top 10px right 100px;
 }
