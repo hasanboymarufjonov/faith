@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/button.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/box.css" />
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -39,9 +42,41 @@
           </li>
           <li><button class="btn btn-dark-outline">Sign In</button></li>
           <li><button class="btn btn-dark">Join Now</button></li>
+          <!-- Hamburger Menu -->
+          <button type="button" class="hamburger" id="menu-btn">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
         </ul>
       </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+          <a href="#">News</a>
+        </li>
+        <li>
+          <a href="#">Books</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+      </ul>
+
+      <div class="mobile-menu-bottom">
+        <button class="btn btn-dark-outline">Sign in</button>
+        <button class="btn btn-dark">Join now</button>
+        <div>
+          <a href="#">
+            <img src="img/place-marker.png" alt="" />
+            <span>Find Mosque</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
     <!-- Prayer Times -->
 
@@ -132,7 +167,7 @@
 
       -->
 
-      <div class="card">
+      <div class="card card--bg-gray-blue">
         <p class="card__quote">
           <iframe
             style="width: 260px; height: 405px; border: 1px solid #ddd"
@@ -144,11 +179,32 @@
       </div>
     </div>
 
+    <!-- Section -->
+    <section class="box box-b bg-primary grid-col-2">
+      <img
+        src="https://img.icons8.com/external-others-bzzricon-studio/256/null/external-quran-ramadan-others-bzzricon-studio-2.png"
+        class="learn"
+      />
+      <div class="box-text">
+        <h2 class="text-xl">Learn Qur'an</h2>
+        <p class="text-md">
+          You can learn Qur'an in different languages including English, Russian
+          Turkish, Uzbek with the help of this website
+        </p>
+        <a
+          href="https://www.islamicfinder.org/quran/#translations"
+          class="btn btn-light-outline"
+          >Learn Now</a
+        >
+      </div>
+    </section>
+
     <footer>
       <h3>
         Faith Islamic App by
         <a href="#">Hasanboy Marufjonov</a>
       </h3>
     </footer>
+    <script src="js/nav.js"></script>
   </body>
 </html>

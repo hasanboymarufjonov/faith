@@ -56,7 +56,7 @@ body {
 }
 
 .card--bg-purple {
-  background: hsl(263, 55%, 52%);
+  background: #006241; /*hsl(263, 55%, 52%);*/
   color: #fff;
   background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
@@ -89,6 +89,7 @@ body {
 
 footer {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
