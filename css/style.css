@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;700&display=swap");
+
+:root {
+  --color-primary: #006241;
+  --color-secondary: #d50032;
+  --color-extra: #d4e9e2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  line-height: 1.4;
+  color: #000;
+}
+
+a {
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 5px 0;
+  line-height: 1.7;
+}
