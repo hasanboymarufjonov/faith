@@ -132,13 +132,13 @@ footer {
 @media (max-width: 361px) {
   .card {
     width: 105%;
-    margin-left: -20px;
+    margin-left: -12px;
   }
 }
 
 @media (max-width: 321px) {
   .card {
-    width: 90%;
+    width: 100%;
     margin-left: -15px;
   }
   .special_days {
