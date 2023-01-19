@@ -98,10 +98,6 @@ footer {
     width: 100%;
   }
 
-  .card {
-    margin-left: 0px;
-  }
-
   .special_days {
     margin-left: 20px;
   }
@@ -118,5 +114,34 @@ footer {
   .card:nth-of-type(5) {
     grid-column: 1;
     grid-row: 5;
+  }
+}
+
+@media (max-width: 395px) {
+  .card {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 376px) {
+  .card {
+    margin-left: -12px;
+  }
+}
+
+@media (max-width: 361px) {
+  .card {
+    width: 105%;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 321px) {
+  .card {
+    width: 90%;
+    margin-left: -15px;
+  }
+  .special_days {
+    margin-left: 0px;
   }
 }
